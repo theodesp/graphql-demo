@@ -1,0 +1,16 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "Example GraphQL blog API",
+  "main": "index.js",
+  "scripts": {
+    "start": "graphpack",
+    "build": "graphpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "graphpack": "^1.0.9"
+  }
+}

@@ -1,0 +1,12 @@
+type Article {
+    id: ID!
+    title: String!
+    body: String!
+    posted: Int
+}
+
+type Query {
+    version: String
+    articles: [Article!]!
+    article(id: ID!): Article!
+}
